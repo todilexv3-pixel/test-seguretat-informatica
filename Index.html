@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qüestionari de Seguretat Informàtica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-left: 4px solid #3498db;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Qüestionari de Seguretat Informàtica</h1>
+
+    <form>
+        <!-- Pregunta 1 -->
+        <div class="question">
+            <p><strong>1. Per què cal protegir la informació en un sistema informàtic?</strong></p>
+            <label><input type="radio" name="q1" value="a"> a) Només per complir amb la normativa legal vigent</label>
+            <label><input type="radio" name="q1" value="b"> b) Perquè és un actiu valuós que pot patir pèrdues, robatori o modificació no autoritzada</label>
+            <label><input type="radio" name="q1" value="c"> c) Únicament per evitar que els usuaris facen servir programari no autoritzat</label>
+            <label><input type="radio" name="q1" value="d"> d) Perquè els sistemes informàtics sempre són insegurs per naturalesa</label>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="question">
+            <p><strong>2. Quins són els tres pilars clàssics de la seguretat de la informació?</strong></p>
+            <label><input type="radio" name="q2" value="a"> a) Autenticació, autorització i auditoria</label>
+            <label><input type="radio" name="q2" value="b"> b) Confidencialitat, integritat i disponibilitat</label>
+            <label><input type="radio" name="q2" value="c"> c) Prevenció, detecció i correcció</label>
+            <label><input type="radio" name="q2" value="d"> d) Física, lògica i activa</label>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="question">
+            <p><strong>3. La confidencialitat garanteix que:</strong></p>
+            <label><input type="radio" name="q3" value="a"> a) La informació estiga sempre disponible quan es necessite</label>
+            <label><input type="radio" name="q3" value="b"> b) La informació no siga modificada per persones no autoritzades</label>
+            <label><input type="radio" name="q3" value="c"> c) Només les persones autoritzades puguen accedir a la informació</label>
+            <label><input type="radio" name="q3" value="d"> d) Es puga demostrar qui ha enviat un missatge</label>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="question">
+            <p><strong>4. La integritat de la informació es refereix a:</strong></p>
+            <label><input type="radio" name="q4" value="a"> a) Que la informació siga exacta, completa i no haja estat alterada de manera no autoritzada</label>
+            <label><input type="radio" name="q4" value="b"> b) Que la informació estiga xifrada en tot moment</label>
+            <label><input type="radio" name="q4" value="c"> c) Que la informació estiga disponible 24/7</label>
+            <label><input type="radio" name="q4" value="d"> d) Que la informació només siga accessible des de la xarxa interna</label>
+        </div>
+
+        <!-- Pregunta 5 -->
+        <div class="question">
+            <p><strong>5. La disponibilitat implica que:</strong></p>
+            <label><input type="radio" name="q5" value="a"> a) La informació només estiga accessible en horari laboral</label>
+            <label><input type="radio" name="q5" value="b"> b) Els usuaris autoritzats puguen accedir a la informació i als recursos quan els calga</label>
+            <label><input type="radio" name="q5" value="c"> c) La informació estiga duplicada en tres servidors</label>
+            <label><input type="radio" name="q5" value="d"> d) La informació no es puga esborrar mai</label>
+        </div>
+
+        <!-- Pregunta 6 -->
+        <div class="question">
+            <p><strong>6. El principi de no repudi (no repudiació) significa que:</strong></p>
+            <label><input type="radio" name="q6" value="a"> a) L'usuari no pot negar haver realitzat una acció o enviat un missatge</label>
+            <label><input type="radio" name="q6" value="b"> b) L'usuari pot rebutjar les condicions d'ús del sistema</label>
+            <label><input type="radio" name="q6" value="c"> c) El sistema no pot rebutjar cap petició d'accés</label>
+            <label><input type="radio" name="q6" value="d"> d) Cap usuari pot ser expulsat del sistema</label>
+        </div>
+
+        <!-- Pregunta 7 -->
+        <div class="question">
+            <p><strong>7. Quina diferència hi ha entre seguretat física i seguretat lògica?</strong></p>
+            <label><input type="radio" name="q7" value="a"> a) La física protegeix el maquinari i les instal·lacions; la lògica protegeix les dades i el programari</label>
+            <label><input type="radio" name="q7" value="b"> b) La física protegeix les dades; la lògica protegeix els equips</label>
+            <label><input type="radio" name="q7" value="c"> c) Són sinònims i s'utilitzen indistintament</label>
+            <label><input type="radio" name="q7" value="d"> d) La física només s'aplica a servidors i la lògica a ordinadors personals</label>
+        </div>
+
+        <!-- Pregunta 8 -->
+        <div class="question">
+            <p><strong>8. La seguretat passiva es caracteritza per:</strong></p>
+            <label><input type="radio" name="q8" value="a"> a) Actuar abans de produir-se l'incident, prevenint-lo</label>
+            <label><input type="radio" name="q8" value="b"> b) Detectar i corregir els danys un cop produïda l'amenaça</label>
+            <label><input type="radio" name="q8" value="c"> c) Xifrar totes les comunicacions de la xarxa</label>
+            <label><input type="radio" name="q8" value="d"> d) Analitzar les vulnerabilitats del sistema periòdicament</label>
+        </div>
+
+        <!-- Pregunta 9 -->
+        <div class="question">
+            <p><strong>9. La seguretat activa es caracteritza per:</strong></p>
+            <label><input type="radio" name="q9" value="a"> a) Tenir com a objectiu evitar o prevenir les amenaces abans que es materialitzen</label>
+            <label><input type="radio" name="q9" value="b"> b) Actuar només després que s'haga produït un atac</label>
+            <label><input type="radio" name="q9" value="c"> c) Ser sempre més econòmica que la seguretat passiva</label>
+            <label><input type="radio" name="q9" value="d"> d) No requerir cap mena de manteniment</label>
+        </div>
+
+        <!-- Pregunta 10 -->
+        <div class="question">
+            <p><strong>10. Quins són els tres factors d'autenticació clàssics?</strong></p>
+            <label><input type="radio" name="q10" value="a"> a) Usuari, contrasenya i correu electrònic</label>
+            <label><input type="radio" name="q10" value="b"> b) Una cosa que saps, una cosa que tens i una cosa que tu eres</label>
+            <label><input type="radio" name="q10" value="c"> c) Xifrat, signatura i hash</label>
+            <label><input type="radio" name="q10" value="d"> d) Confidencialitat, integritat i disponibilitat</label>
+        </div>
+
+        <!-- Pregunta 11 -->
+        <div class="question">
+            <p><strong>11. Un exemple de factor d'autenticació biomètric seria:</strong></p>
+            <label><input type="radio" name="q11" value="a"> a) Una contrasenya</label>
+            <label><input type="radio" name="q11" value="b"> b) Un token USB</label>
+            <label><input type="radio" name="q11" value="c"> c) L'empremta dactilar o el reconeixement facial</label>
+            <label><input type="radio" name="q11" value="d"> d) Un certificat digital emmagatzemat al disc</label>
+        </div>
+
+        <!-- Pregunta 12 -->
+        <div class="question">
+            <p><strong>12. Què significa el model AAA en seguretat informàtica?</strong></p>
+            <label><input type="radio" name="q12" value="a"> a) Accés, Alerta i Auditoria</label>
+            <label><input type="radio" name="q12" value="b"> b) Autenticació, Autorització i Auditoria (Accounting)</label>
+            <label><input type="radio" name="q12" value="c"> c) Antivirus, Antispam i Antimalware</label>
+            <label><input type="radio" name="q12" value="d"> d) Anàlisi, Avaluació i Acció</label>
+        </div>
+
+        <!-- Pregunta 13 -->
+        <div class="question">
+            <p><strong>13. La comunicació "extrem a extrem" (i2i / end-to-end) implica que:</strong></p>
+            <label><input type="radio" name="q13" value="a"> a) Les dades viatgen xifrades entre els dos extrems i només ells les poden desxifrar</label>
+            <label><input type="radio" name="q13" value="b"> b) Les dades passen sense xifrar per tots els intermediaris</label>
+            <label><input type="radio" name="q13" value="c"> c) El servidor central desxifra sempre els missatges</label>
+            <label><input type="radio" name="q13" value="d"> d) Només s'aplica a xarxes locals</label>
+        </div>
+
+        <!-- Pregunta 14 -->
+        <div class="question">
+            <p><strong>14. Què és una vulnerabilitat?</strong></p>
+            <label><input type="radio" name="q14" value="a"> a) Un programa maliciós que ataca el sistema</label>
+            <label><input type="radio" name="q14" value="b"> b) Una debilitat o error en el sistema que pot ser explotat per una amenaça</label>
+            <label><input type="radio" name="q14" value="c"> c) Un atac que ja s'ha produït</label>
+            <label><input type="radio" name="q14" value="d"> d) Una eina per protegir el sistema</label>
+        </div>
+
+        <!-- Pregunta 15 -->
+        <div class="question">
+            <p><strong>15. Què és un exploit?</strong></p>
+            <label><input type="radio" name="q15" value="a"> a) Un tipus de contrasenya molt segura</label>
+            <label><input type="radio" name="q15" value="b"> b) Una tècnica, codi o eina que aprofita una vulnerabilitat per comprometre el sistema</label>
+            <label><input type="radio" name="q15" value="c"> c) Un mètode de xifrat de dades</label>
+            <label><input type="radio" name="q15" value="d"> d) Un protocol de comunicació segura</label>
+        </div>
+
+        <!-- Pregunta 16 -->
+        <div class="question">
+            <p><strong>16. Quin d'aquests és un tipus de malware?</strong></p>
+            <label><input type="radio" name="q16" value="a"> a) Tallafocs (firewall)</label>
+            <label><input type="radio" name="q16" value="b"> b) Xifrat AES</label>
+            <label><input type="radio" name="q16" value="c"> c) Troià (trojan)</label>
+            <label><input type="radio" name="q16" value="d"> d) VPN</label>
+        </div>
+
+        <!-- Pregunta 17 -->
+        <div class="question">
+            <p><strong>17. Un atac de "phishing" consisteix principalment a:</strong></p>
+            <label><input type="radio" name="q17" value="a"> a) Enviar moltes peticions per saturar un servidor</label>
+            <label><input type="radio" name="q17" value="b"> b) Enganyar l'usuari perquè revele informació confidencial fent-se passar per una entitat de confiança</label>
+            <label><input type="radio" name="q17" value="c"> c) Xifrar les dades de la víctima i demanar un rescat</label>
+            <label><input type="radio" name="q17" value="d"> d) Escanejar ports oberts d'una xarxa</label>
+        </div>
+
+        <!-- Pregunta 18 -->
+        <div class="question">
+            <p><strong>18. Quin és l'objectiu principal del Reglament General de Protecció de Dades (RGPD)?</strong></p>
+            <label><input type="radio" name="q18" value="a"> a) Regular l'ús de programari lliure a les empreses</label>
+            <label><input type="radio" name="q18" value="b"> b) Protegir les persones físiques pel que fa al tractament de les seves dades personals</label>
+            <label><input type="radio" name="q18" value="c"> c) Establir les normes tècniques dels sistemes operatius</label>
+            <label><input type="radio" name="q18" value="d"> d) Regular únicament les transaccions comercials electròniques</label>
+        </div>
+
+        <!-- Pregunta 19 -->
+        <div class="question">
+            <p><strong>19. En el context de l'Administració electrònica, què cal garantir principalment?</strong></p>
+            <label><input type="radio" name="q19" value="a"> a) Que tots els tràmits es facen presencialment</label>
+            <label><input type="radio" name="q19" value="b"> b) La identitat dels ciutadans i la integritat i confidencialitat de les seues dades en els tràmits telemàtics</label>
+            <label><input type="radio" name="q19" value="c"> c) Que els tràmits només es puguen fer amb contrasenya simple</label>
+            <label><input type="radio" name="q19" value="d"> d) Que no es guarde cap registre dels tràmits realitzats</label>
+        </div>
+
+        <!-- Pregunta 20 -->
+        <div class="question">
+            <p><strong>20. Quina afirmació sobre els tipus d'atacs és correcta?</strong></p>
+            <label><input type="radio" name="q20" value="a"> a) Els atacs passius només modifiquen la informació sense llegir-la</label>
+            <label><input type="radio" name="q20" value="b"> b) Els atacs actius busquen modificar, interrompre o destruir recursos, mentre que els passius solen interceptar o escoltar informació sense alterar-la</label>
+            <label><input type="radio" name="q20" value="c"> c) Tots els atacs són sempre actius</label>
+            <label><input type="radio" name="q20" value="d"> d) Els atacs passius sempre deixen traces evidents al sistema</label>
+        </div>
+
+        <button type="submit">Enviar respostes</button>
+    </form>
+
+</body>
+</html>
